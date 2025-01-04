@@ -2,7 +2,7 @@ const today = new Date();
 
 const year = today.getUTCFullYear();
 
-const month = today.getUTCMonth();
+const month = today.getUTCMonth() + 1;
 
 const dayOfMonth = today.getUTCDate();
 
